@@ -8,7 +8,8 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  margin-top: 20px;
+  font-size: 1.8em;
 }
 
 .App-intro {
@@ -18,4 +19,15 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#gitForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#calculate {
+  margin-left: 10px;
 }
